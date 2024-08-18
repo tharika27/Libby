@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pageLengths">
+        <item>Short story or novella (less than 200 pages)</item>
+        <item>Standard novel (200 – 400 pages)</item>
+        <item>Longer novel (400 – 600 pages)</item>
+        <item>Epic or saga (600 – 900 pages)</item>
+        <item>Doorstopper (900+ pages)</item>
+    </string-array>
+
+    <string-array name="genres">
+        <item>Science Fiction</item>
+        <item>Mystery</item>
+        <item>Fantasy</item>
+        <item>Romance</item>
+        <item>Historical Fiction</item>
+        <item>Thriller</item>
+        <item>Horror</item>
+        <item>Young Adult</item>
+        <item>Dystopian</item>
+        <item>Non-fiction (e.g., Biography, Self-help)</item>
+    </string-array>
+
+</resources>

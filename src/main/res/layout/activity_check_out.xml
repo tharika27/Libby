@@ -1,0 +1,136 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/pwhite"
+    android:padding="16dp">
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/check_out_books_title"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:textSize="18sp"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/editTextTitle"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:inputType="text"
+        android:hint="@string/enter_title"
+        android:layout_marginTop="8dp"
+        android:padding="8dp"
+        android:background="@drawable/edittext_bg"
+        android:autofillHints="" />
+
+    <!-- Author -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/author"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/editTextAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:inputType="text"
+        android:hint="@string/enter_author"
+        android:layout_marginTop="8dp"
+        android:padding="8dp"
+        android:background="@drawable/edittext_bg"
+        android:autofillHints="" />
+
+    <!-- ISBN Number -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/isbn_number"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/editTextISBN"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:inputType="number"
+        android:hint="@string/enter_isbn_number"
+        android:layout_marginTop="8dp"
+        android:padding="8dp"
+        android:background="@drawable/edittext_bg"
+        android:autofillHints="" />
+
+    <!-- Format (Ebook or Physical) -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/format"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="16dp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupFormat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioButtonEbook"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="@string/ebook"
+            android:textColor="@color/black" />
+
+        <RadioButton
+            android:id="@+id/radioButtonPhysical"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="@string/physical"
+            android:textColor="@color/black" />
+    </RadioGroup>
+
+
+
+    <!-- Check-out Button -->
+    <Button
+        android:id="@+id/check_out_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/check_out"
+        android:textColor="@color/maroon"
+        android:background="@drawable/button_border"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp" />
+
+    <Button
+        android:id="@+id/home_Button_press"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/home_page"
+        android:textColor="@color/maroon"
+        android:background="@drawable/button_border"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp" />
+
+
+    </LinearLayout>
+</ScrollView>

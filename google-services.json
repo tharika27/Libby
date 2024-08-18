@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "974133541042",
+    "project_id": "login-register-firebase-263de",
+    "storage_bucket": "login-register-firebase-263de.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:974133541042:android:3031e8e3b2addfd8f371ab",
+        "android_client_info": {
+          "package_name": "com.example.libby"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdb9AhnMpz330ckzcqz5fyUkCSZkbAxBU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/pwhite"
+    android:padding="16dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/check_in_books"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <!-- List of checked-out books -->
+    <ListView
+        android:id="@+id/listViewCheckedOutBooks"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="8dp" />
+
+        <!-- Review Button -->
+    <Button
+        android:id="@+id/reviewButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/review_book"
+        android:textColor="@color/maroon"
+        android:background="@drawable/button_border"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp" />
+
+    <Button
+        android:id="@+id/home_Button_press"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/home_page"
+        android:textColor="@color/maroon"
+        android:background="@drawable/button_border"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp" />
+
+</LinearLayout>
